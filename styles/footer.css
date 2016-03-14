@@ -1,0 +1,78 @@
+footer {
+	position: relative;
+	padding-bottom: 40px;
+	width: 100%;
+	color: #fff;
+	background: #d45e5e;
+	font-family: 'PTSans';
+	font-size: 12px;
+}
+.author-profile {
+	float: left;
+	width: 58%;
+	padding-left: 30px;
+}
+.author-contacts {margin-bottom: 25px;}
+.author-foto {float: left;}
+.author-foto img {
+	position: absolute;
+	top: -50px;
+	float: left;
+	border: 6px solid #fff;
+}
+.author-foto-descr {
+	padding-left: 160px;
+	padding-top: 20px;
+	font: 24px Cambria;
+	font-style: italic;
+}
+.author-location {
+	margin: 11px 0;
+	padding-left: 22px;
+	background: url(../images/location-ic.png) no-repeat;
+	font-family: 'PTSans';
+	font-size: 12px;
+	font-style: normal;
+}
+.author-contacts-social {float: right;}
+.author-contacts-social i {
+	float: left;
+	display: block;
+	margin-top: 30px;
+	width: 39px;
+	height: 41px;
+	margin-right: 10px;
+}
+.vk {background: url(../images/vk-ic.png) no-repeat center center;}
+.fb {background: url(../images/fb-ic.png) no-repeat center center;}
+.mail {background: url(../images/mail-ic.png) no-repeat center center;}
+.skills {
+	float: right;
+	width: 30%;
+	padding-right: 10px;}
+.skills p {
+	padding-top: 40px;
+	margin-bottom: 20px;
+	font-family: "Cambria";
+	font-size: 24px;
+}
+.skills span {
+	display: inline-block;
+	width: 100%;
+	background: url(../images/line.png) no-repeat right center;
+	font-size: 18px;
+}
+.skills span:last-child {
+	background: url(../images/line2.png) no-repeat right center;
+}
+.copyright {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	padding: 10px 0;
+	background: #404040;
+}
+.copyright span {
+	opacity: 0.5;
+}

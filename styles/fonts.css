@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue Regular.otf')  format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Helvetica-Condensed-Light';
+  src: url('../fonts/Helvetica-Condensed-Light.otf')  format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'PTSans';
+  src: url('../fonts/PTS55F.ttf')  format('truetype');
+  font-weight: normal;
+}
