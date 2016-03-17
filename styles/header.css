@@ -21,7 +21,7 @@ header {
 .menu a {
 	float: left;
 	display: block;
-	padding: 50px 12px 10px 12px;
+	padding: 50px 12px 20px 12px;
 }
 .menu a:hover, .menu-link-active {
 	background: #d45e5e;

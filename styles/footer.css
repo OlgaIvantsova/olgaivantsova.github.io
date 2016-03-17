@@ -5,12 +5,13 @@ footer {
 	color: #fff;
 	background: #d45e5e;
 	font-family: 'PTSans';
-	font-size: 12px;
+	font-size: 14px;
 }
 .author-profile {
 	float: left;
 	width: 58%;
 	padding-left: 30px;
+	margin-bottom: 20px;
 }
 .author-contacts {margin-bottom: 25px;}
 .author-foto {float: left;}

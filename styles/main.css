@@ -1,8 +1,8 @@
 main, .portfolio-descr {
 	font: 22px Cambria;
 	font-style: italic;
-	margin-bottom: 90px;
 }
+main {margin-bottom: 90px;}
 .banner {
 	width: 66%;
 	height: 210px;
@@ -14,6 +14,7 @@ main, .portfolio-descr {
 	width: 72%;
 	margin: 0 auto;
 	padding-top: 30px;
+	text-transform: uppercase;
 }
 .content {margin-left: 30px;}
 .gallery {
@@ -49,3 +50,14 @@ main, .portfolio-descr {
     transition: height .3s ease-in-out;
 }
 .gallery-item:hover .foto-descr {height: 25%;}
+.about {
+	padding: 50px 0;
+	text-align: center;
+	line-height: 1.5;
+}
+.portfolio-link {
+	font-size: 24px;
+	font-weight: bold;
+	color: #202644;
+}
+.portfolio-link:hover {text-shadow: 1px 1px 2px black, 0 0 1em blue;}
