@@ -1,0 +1,45 @@
+@media only screen and (max-width: 980px) {
+	.gallery-item {
+		width: 40%;
+		margin-right: 15%;
+	}
+	.gallery-item:nth-of-type(2n) {margin-right: 0;}
+	.author-profile {
+		float: none;
+		width: 90%;
+	}
+	.skills {
+	    float: none;
+	    width: 50%;
+	    padding-left: 30px;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.gallery-item {
+		width: 90%;
+		margin-right: 0;
+	}
+	.skills {width: 90%;}
+}
+@media only screen and (max-width: 480px) {
+	.logo {
+		float: none;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	.menu {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.menu a {
+		float: none;
+		padding-bottom: 50px;
+		font-size: 22px;
+	}
+	.portfolio-descr {text-align: center;}
+	.author-contacts-social, .author-foto {float: none;}
+	.author-contacts-social {text-align: center;}
+	.author-contacts-social a {display: inline-block;}
+	.skills {margin-bottom: 20px;}
+}
